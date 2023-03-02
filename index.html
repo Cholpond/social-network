@@ -4,36 +4,57 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Social Network</title>
+    <title>Social Network team5</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
 </head>
 <body>
-    <div class="container">
-        <div class="navbar">
-            <div class="logo">
-                <h2>Seytech</h2>
-                <i class="fa-sharp fa-regular fa-house"></i>
-            </div>
+
+    <div class="navbar">
+        <div class="id">
+        <div class="logo">
+            <i class="fa-sharp fa-regular fa-house"></i>
+            <h2>Seytech</h2>
+        </div>
+        <div class="icons">
             <i class="fa-solid fa-earth-americas"></i>
+        </div>
+        <div class="icons">
             <i class="fa-solid fa-user"></i>
+        </div>
+        <div class="icons">
             <i class="fa-solid fa-envelope"></i>
         </div>
+        </div> 
+    </div>
 
-    <div class="content">
-        <div class="side-bar 1">
+    <div class="container">
+ 
+
+        <!-- <div class="main"> -->
+        <div class="main">
             <div class="my-profile">
                 <h3>My Profile</h3>
-                <p><span><i class="fa-solid fa-pen"></i></span>Software Engineer</p>
-                <p><i class="fa-duotone fa-house-chimney"></i></span>Seattle, WA</p>
-                <p><span><i class="fa-solid fa-cake-candles"></i></span>April 10</p>
+                <div id="avatar">
+                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/marat.jpg" alt="">
+                </div>
+                <div class="main-content">
+                    <hr>
+                    <p><span><i class="fa-solid fa-pen"></i></span>Software Engineer</p>
+                     <p><i class="fa-duotone fa-house-chimney"></i></span>Seattle, WA</p>
+                    <p><span><i class="fa-solid fa-cake-candles"></i></span>April 10</p>
+                </div>
             </div>
-            <div class="groups-photos-events">
-                <p class="side-bar headings">My Groups</p>
-                <p>Some text</p>
-                <p class="side-bar headings">My Events</p>
-                <p>Some other text</p>
-                <p class="side-bar headings">My Photos</p>
+        </div>
+        <!-- </div> -->
+        
+        <div class="side-bar1 groups-photos-events">
+            <p class="side-bar headings">My Groups</p>
+            <p>Some text</p>
+             <p class="side-bar headings">My Events</p>
+            <p>Some other text</p>
+            <p class="side-bar headings">My Photos</p>
+            <div class="photos">
                 <img class="side-photos" src="https://www.adorama.com/alc/wp-content/uploads/2017/11/shutterstock_114802408.jpg" alt="Photo of the sky">
                 <img class="side-photos" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRuPntmUn_TkzTfvRBjoF0AajbBYLuoNwUNNA&usqp=CAU" alt="">
                 <img class="side-photos" src="https://www.celebritycruises.com/blog/content/uploads/2022/01/most-beautiful-mountains-in-the-world-kirkjufell-iceland-1024x580.jpg" alt="">
@@ -41,7 +62,11 @@
                 <img class="side-photos" src="https://w0.peakpx.com/wallpaper/241/225/HD-wallpaper-water-landscape-and-beautiful-mountains-forest-water-green-mountains-nature-trees-landscape-lake.jpg" alt="">
                 <img class="side-photos" src="https://wallpapers.com/images/featured/yyq6y6jpwnt15oj0.jpg" alt="">
             </div>
-            <div class="interests">
+        </div>
+
+
+
+        <div class="interests">
                 <h3>Intersts</h3>
                 <button class="interest-buttons dark-blue">News</button>
                 <button class="interest-buttons dark-blue">Seytech</button>
@@ -54,75 +79,95 @@
                 <button class="interest-buttons">Design</button>
                 <button class="interest-buttons">Art</button>
                 <button class="interest-buttons white-btn">Photos</button>
-            </div>
-            <div class="hey">
+        </div>
+
+
+
+        <div class="hey">
                 <p>Hey!</p>
                 <p>People are looking at your profile. Find out who.</p>
+        </div>
+       
+
+        <!-- Middle section -->
+
+        <div class="middleSection post">
+            <div class="post1">
+                <textarea name="post" id="post" cols="78" rows="1" placeholder="Status: Feeling Blue"></textarea>
+                <a class="likes-comments rachel-cl" href="#">Post</a>
             </div>
         </div>
-        <div class="middle-section">
-            <div class="post writing section">
-                <p>Status: Feeling Blue</p>
-                <a href="#">Post</a>
-            </div>
-            <div class="Rachel-Sine">
+
+        
+        <div class="middleSection Rachel-Sine">
                 <h3>Rachel Sine</h3>
                 <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                <img class="post-photo" src="./photo_5458820832861209821_x.jpg">
+                <img class="post-photo" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png">
                 <img class="post-photo" src="https://images.tynker.com/blog/wp-content/uploads/2016-08-04-1.png" alt="">
                 <a class="likes-comments rachel-cl" href="#">Like</a>
                 <a class="likes-comments rachel-cl" href="#">Comment</a>
-            </div>
-            <div class="Aikol">
+        </div>
+
+
+        <div class="middleSection Aikol">
                 <h3>Aikol T</h3>
                 <p class="status">16 min</p>
                 <p>Join us at the new and improved Microsoft! We are building the Developer Relations dream team in Azure engineering. Our global team is...</p>
                 <a class="likes-comments" href="#">Like</a>
                 <a class="likes-comments" href="#">Comment</a>
-            </div>
-            <div class="Luan">
+        </div>
+
+
+        <div class="middleSection Luan">
                 <h3>L'uan R</h3>
                 <p class="status">32 min</p>
                 <p>Have you seen this?</p>
                 <img src="https://blog.internshala.com/wp-content/uploads/2017/12/how-an-online-training-helped-me-create-a-website-1024x448.jpg" alt="">
                 <a class="likes-comments luan-cl" href="#">Like</a>
                 <a class="likes-comments luan-cl" href="#">Comment</a>
-            </div>
-         <div class="right-side-bar">
-            <div class="upcoming events">
+        </div>
+
+        <!-- Right side bar -->
+
+
+        <div class="right-side-bar upcomingevents">
+            <div class="upcoming events1">
                 <h3>Upcoming Events</h3>
                 <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1e0d62f445e6448af1e125f5702c8227/reactjs-development-services.png" alt="">
                 <p>React Course</p>
                 <p>Friday 15:00</p>
                 <a href="#">Info</a>
             </div>
-            <div class="friend-request">
+        </div>
+
+        <div class="right-side-bar friend-request">
                 <h3>Friend Request</h3>
                 <img src="https://post.medicalnewstoday.com/wp-content/uploads/sites/3/2020/02/322868_1100-732x549.jpg" alt="">
                 <p>Shiba Inu</p>
                 <a href="#"><i class="fa-solid fa-check"></i></a>
                 <a href="#"><i class="fa-solid fa-xmark"></i></a>
-            </div>
-            <div class="ads">
-                <p class="ads">ADS</p>
-            </div>
-                <div class="bug">
-                    <i class="fa-solid fa-bug"></i>
-                </div>
-            </div>
-
-            </div>
         </div>
-        <div class="footer">
-            <footer>
-                <p>Footer</p>
-            </footer>
-            <footer>
-                Powered by team 5
-            </footer>
+        
+        <div class="ads">
+                <p>ADS</p>
         </div>
+        
+        <div class="bug">
+            <i class="fa-solid fa-bug"></i>
+        </div>
+            
+    
 
     </div>
+
+    <div class="footer">
+        <footer class="footer1">
+            <p>Footer</p>
+        </footer>
+        <footer class="footer2">
+            Powered by <span id="team"><a href="index.html">Team #5</a></span>
+        </footer>
     </div>
+
 </body>
 </html>

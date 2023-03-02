@@ -40,9 +40,9 @@
                 </div>
                 <div class="main-content">
                     <hr>
-                    <p><span><i class="fa-solid fa-pen"></i></span>Software Engineer</p>
-                     <p><i class="fa-duotone fa-house-chimney"></i></span>Seattle, WA</p>
-                    <p><span><i class="fa-solid fa-cake-candles"></i></span>April 10</p>
+                    <p><span><i class="fa-solid fa-pen left-icons"></i></span>Software Engineer</p>
+                     <p><i class="fa-solid fa-location-dot left-icons"></i></span>Seattle, WA</p>
+                    <p><span><i class="fa-solid fa-cake-candles left-icons"></i></span>April 10</p>
                 </div>
             </div>
         </div>
@@ -93,38 +93,70 @@
 
         <div class="middleSection post">
             <div class="post1">
-                <textarea name="post" id="post" cols="78" rows="1" placeholder="Status: Feeling Blue"></textarea>
-                <a class="likes-comments rachel-cl" href="#">Post</a>
+                <textarea name="post" id="post" cols="78" style="resize: none" style="padding: 20px" rows="1">Status: Feeling Blue</textarea>
+                <a class="likes-comments postButton rachel-cl" href="#">Post</a>
             </div>
         </div>
 
         
         <div class="middleSection Rachel-Sine">
-                <h3>Rachel Sine</h3>
-                <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
-                <img class="post-photo" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png">
-                <img class="post-photo" src="https://images.tynker.com/blog/wp-content/uploads/2016-08-04-1.png" alt="">
-                <a class="likes-comments rachel-cl" href="#">Like</a>
-                <a class="likes-comments rachel-cl" href="#">Comment</a>
+            <div class="Rachelflex">
+                <div class="Rachel">
+                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/rachel.jpeg" alt="Rachel">
+                    <h3>Rachel Sine</h3>
+                </div>
+                <p>1 min</p>
+            </div>
+               
+                    <hr>
+                   
+                    <p>Next cohort will start soon. We strive for teaching our students the most up-to-date programming technologies. Contact us.</p>
+                     <img class="post-photo" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/p0.png">
+                    <img class="post-photo" src="https://images.tynker.com/blog/wp-content/uploads/2016-08-04-1.png" alt="">
+                    <div class="padding">
+                        <a class="likes-comments rachel-cl" href="#">Like</a>
+                    
+                        <a class="likes-comments rachel-cl" href="#">Comment</a>
+                    </div>
+                
         </div>
 
 
         <div class="middleSection Aikol">
-                <h3>Aikol T</h3>
-                <p class="status">16 min</p>
+
+            <div class="Rachelflex">
+                <div class="Rachel">
+                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/aikol.jpeg">
+                    <h3>Aiko T</h3>
+                </div>
+                <p>16 min</p>
+            </div>
+               
+                 <hr>
                 <p>Join us at the new and improved Microsoft! We are building the Developer Relations dream team in Azure engineering. Our global team is...</p>
+                <div class="padding"></div>
                 <a class="likes-comments" href="#">Like</a>
                 <a class="likes-comments" href="#">Comment</a>
         </div>
 
 
         <div class="middleSection Luan">
-                <h3>L'uan R</h3>
-                <p class="status">32 min</p>
+            
+            <div class="Rachelflex">
+                <div class="Rachel">
+                    <img src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/ulan.jpeg">
+                    <h3>L'uan R</h3>
+                </div>
+                <p>32 min</p>
+            </div>
+                <hr>
                 <p>Have you seen this?</p>
-                <img src="https://blog.internshala.com/wp-content/uploads/2017/12/how-an-online-training-helped-me-create-a-website-1024x448.jpg" alt="">
+                <img id="Luanphoto" src="https://learn.seytech.co/assets/projects/html-css/projects/6-social-network/assets/web.png" alt="">
+                <p>Coding bootcamp reviews, rankings, and resources to help students find what they need. <br> <span>Bootcamp Venue</span></p>
+                <div class="padding">
                 <a class="likes-comments luan-cl" href="#">Like</a>
                 <a class="likes-comments luan-cl" href="#">Comment</a>
+            </div>
         </div>
 
         <!-- Right side bar -->
@@ -136,7 +168,8 @@
                 <img src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1e0d62f445e6448af1e125f5702c8227/reactjs-development-services.png" alt="">
                 <p>React Course</p>
                 <p>Friday 15:00</p>
-                <a href="#">Info</a>
+                <button class="info-button">Info<a href="#"></a>
+                </button>
             </div>
         </div>
 
@@ -153,7 +186,7 @@
         </div>
         
         <div class="bug">
-            <i class="fa-solid fa-bug"></i>
+            <i class="fa-solid fa-bug icon-bug"></i>
         </div>
             
     
